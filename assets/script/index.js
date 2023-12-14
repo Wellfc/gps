@@ -23,6 +23,7 @@ map.touchZoomRotate.disableRotation();
 map.keyboard.disable();
 map.scrollZoom.disable();
 map.doubleClickZoom.disable();
+// map.touchZoomRotate.disable();
 
 
 function getLocation(position) {

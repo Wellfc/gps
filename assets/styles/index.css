@@ -138,8 +138,7 @@ a {
   margin-bottom: 5rem;
 } */
 
-.mapboxgl-ctrl-bottom-right,
-.mapboxgl-ctrl-bottom-left {
+.mapboxgl-control-container {
   display: none !important;
 }
 
