@@ -67,7 +67,7 @@ function createMarker(latitude, longitude) {
     rotation: 0,
   })
     .setLngLat([longitude, latitude])
-    .setPopup(popup) // sets a popup on this marker
+    // .setPopup(popup) // sets a popup on this marker
     .addTo(map);
 
   // Update the current marker
