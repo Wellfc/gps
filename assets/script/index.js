@@ -17,6 +17,15 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v12", // style URL
 });
 
+map.addControl(
+  new mapboxgl.GeolocateControl({
+    positionOptions: {
+      enableHighAccuracy: true,
+    },
+    trackUserLocation: true,
+    showUserHeading: true
+  })
+);
 
 // map.dragPan.disable();
 map.touchZoomRotate.disableRotation();
